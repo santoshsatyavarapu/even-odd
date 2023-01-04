@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 60px;
+  font-family: 'Roboto';
+}
+
+.sub-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 12px;
+  width: 100px;
+  margin: 20px;
+}
+.paragraph {
+  color: #334155;
+  font-size: 20px;
+}
+.heading {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 40px;
+}
